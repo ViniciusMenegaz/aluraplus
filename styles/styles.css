@@ -14,8 +14,8 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 1 rem;
-    font-weight: 400px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 *{
@@ -45,6 +45,12 @@ padding: 0;
     text-decoration: none;
     display: block;
     margin-bottom: 1em ;
+    transition: 0.18s;
+
+}
+
+.container__botao:hover {
+    transform: scale(1.04);
 
 }
 
@@ -96,6 +102,7 @@ padding: 0;
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
+    transition: 0.60s;
 }
 
 .container__descricao {
